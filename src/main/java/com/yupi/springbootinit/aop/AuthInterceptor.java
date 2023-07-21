@@ -8,6 +8,7 @@ import com.yupi.springbootinit.service.UserService;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
+import com.yupi.springbootinit.model.entity.User;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -18,9 +19,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 /**
  * 权限校验 AOP
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ 
  */
 @Aspect
 @Component

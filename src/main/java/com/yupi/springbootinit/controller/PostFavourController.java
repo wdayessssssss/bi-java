@@ -13,6 +13,7 @@ import com.yupi.springbootinit.model.entity.Post;
 import com.yupi.springbootinit.model.vo.PostVO;
 import com.yupi.springbootinit.service.PostFavourService;
 import com.yupi.springbootinit.service.PostService;
+import com.yupi.springbootinit.model.entity.User;
 import com.yupi.springbootinit.service.UserService;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -24,9 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 帖子收藏接口
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ 
  */
 @RestController
 @RequestMapping("/post_favour")
