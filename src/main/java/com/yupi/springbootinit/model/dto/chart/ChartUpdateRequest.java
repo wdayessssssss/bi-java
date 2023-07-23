@@ -28,6 +28,11 @@ public class ChartUpdateRequest implements Serializable {
     private String goal;
 
     /**
+     * 图表名称
+     */
+    private String chartName;
+
+    /**
      * 图表信息
      */
     private String chartData;
@@ -45,7 +50,7 @@ public class ChartUpdateRequest implements Serializable {
     /**
      * 生成的分析结论
      */
-    private String getResult;
+    private String genResult;
 
     /**
      * 创建图标用户id

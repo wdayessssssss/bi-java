@@ -17,9 +17,9 @@ import java.io.Serializable;
 public class ChartQueryRequest extends PageRequest implements Serializable {
 
     /**
-     * 名称
+     * 图表名称
      */
-    private String name;
+    private String chartName;
 
     /**
     * id

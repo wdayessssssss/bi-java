@@ -12,9 +12,9 @@ import java.io.Serializable;
 public class ChartAddRequest implements Serializable {
 
     /**
-     * 名称
+     * 图表名称
      */
-    private String name;
+    private String chartName;
 
     /**
      * 分析目标
